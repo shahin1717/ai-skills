@@ -67,12 +67,40 @@ ai-skills/
 
 ## 🌐 Upstream Skill Sources & Registries
 
-The skills in this repository are curated and compiled from top AI agent skill sources:
+The skills in this repository are curated and compiled from top upstream AI agent skill sources. You can also install skills directly from the original creators using the `npx skills` CLI:
 
-* **`shahin1717/ai-skills`** (This repository catalog)
-* **[Matt Pocock Skills](https://github.com/mattpocock/skills)** (`mattpocock/skills`)
-* **[Vercel Labs Skills](https://github.com/vercel-labs/skills)** (`vercel-labs/skills`)
-* **[Antigravity Skills](https://github.com/rmyndharis/antigravity-skills)** (`rmyndharis/antigravity-skills`)
+### 1. 📦 Matt Pocock Skills (`mattpocock/skills`)
+* **GitHub Repository**: [https://github.com/mattpocock/skills](https://github.com/mattpocock/skills)
+* **Install All Skills**:
+  ```bash
+  npx skills add mattpocock/skills
+  ```
+* **Install Specific Skill** (e.g., `handoff` or `code-review`):
+  ```bash
+  npx skills add mattpocock/skills --skill=handoff
+  ```
+
+### 2. 📦 Vercel Labs Skills (`vercel-labs/skills`)
+* **GitHub Repository**: [https://github.com/vercel-labs/skills](https://github.com/vercel-labs/skills)
+* **Install All Skills**:
+  ```bash
+  npx skills add vercel-labs/skills
+  ```
+* **Install Specific Skill** (e.g., `find-skills`):
+  ```bash
+  npx skills add vercel-labs/skills --skill=find-skills
+  ```
+
+### 3. 📦 Antigravity Skills (`rmyndharis/antigravity-skills`)
+* **GitHub Repository**: [https://github.com/rmyndharis/antigravity-skills](https://github.com/rmyndharis/antigravity-skills)
+* **Install All Skills**:
+  ```bash
+  npx skills add rmyndharis/antigravity-skills
+  ```
+* **Install Specific Skill** (e.g., `code-documentation-doc-generate`):
+  ```bash
+  npx skills add rmyndharis/antigravity-skills --skill=code-documentation-doc-generate
+  ```
 
 ---
 
