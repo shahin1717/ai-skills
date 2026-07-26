@@ -7,6 +7,36 @@ A curated repository of production-grade **AI Agent Skills** designed for autono
 
 ---
 
+## ⚡ Quick Start: Install All 74+ Skills via CLI
+
+Install all skills directly into your project or globally using the `npx skills` CLI command:
+
+### 📦 Install All Skills to Your Project
+Run this command from your project root directory:
+
+```bash
+npx skills add shahin1717/ai-skills
+```
+
+### 🌐 Install All Skills Globally
+To make all skills available across all projects on your machine:
+
+```bash
+npx skills add shahin1717/ai-skills -g
+```
+
+### 🎯 Install a Specific Skill
+To install just a single skill (e.g. `ai-engineer` or `diagnosing-bugs`):
+
+```bash
+npx skills add shahin1717/ai-skills --skill=ai-engineer
+```
+
+> [!IMPORTANT]
+> Always execute `npx skills` commands from your **workspace root** (or pass `-g` for global installation).
+
+---
+
 ## 💡 What is an AI Skill?
 
 An **AI Skill** is a structured instruction package (`SKILL.md`) loaded into an AI agent's context when a specific task domain is triggered. Instead of relying on general model improvisation, skills provide:
@@ -35,31 +65,14 @@ ai-skills/
 
 ---
 
-## 🌐 Sourcing & Skill Registries
+## 🌐 Upstream Skill Sources & Registries
 
-The skills in this repository are pulled and managed from leading AI agent skill registries:
+The skills in this repository are curated and compiled from top AI agent skill sources:
 
-1. **[Matt Pocock Skills](https://github.com/mattpocock/skills)** (`mattpocock/skills`)
-2. **[Vercel Labs Skills](https://github.com/vercel-labs/skills)** (`vercel-labs/skills`)
-3. **[Antigravity Skills](https://github.com/rmyndharis/antigravity-skills)** (`rmyndharis/antigravity-skills`)
-
-### Installing Skills via CLI
-
-To install or sync skills in your workspace root, use the `npx skills` CLI:
-
-```bash
-# Install all skills from a source registry
-npx skills add mattpocock/skills
-npx skills add rmyndharis/antigravity-skills
-npx skills add vercel-labs/skills
-
-# Install a specific skill
-npx skills add rmyndharis/antigravity-skills --skill=code-documentation-doc-generate
-npx skills add mattpocock/skills --skill=handoff
-```
-
-> [!IMPORTANT]
-> Always execute `npx skills` commands from your **workspace root**, not from within `.agents/skills`.
+* **`shahin1717/ai-skills`** (This repository catalog)
+* **[Matt Pocock Skills](https://github.com/mattpocock/skills)** (`mattpocock/skills`)
+* **[Vercel Labs Skills](https://github.com/vercel-labs/skills)** (`vercel-labs/skills`)
+* **[Antigravity Skills](https://github.com/rmyndharis/antigravity-skills)** (`rmyndharis/antigravity-skills`)
 
 ---
 
