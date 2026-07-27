@@ -1,0 +1,10 @@
+# Ignore everything in repository by default
+*
+
+# Allow directory traversal
+!*/
+
+# Whitelist specific required files and folders
+!.gitignore
+!README.md
+!.agents/**

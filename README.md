@@ -1,13 +1,13 @@
 # 🤖 AI Agent Skills Library (`ai-skills`)
 
-[![Skills Catalog](https://img.shields.io/badge/Skills-74%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
+[![Skills Catalog](https://img.shields.io/badge/Skills-88%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
 [![Agent Protocol](https://img.shields.io/badge/Protocol-Agentic%20Coding-ff69b4?style=for-the-badge)](.agents/skills)
 
-A curated repository of production-grade **AI Agent Skills** designed for autonomous AI agents and pair-programming assistants. This library equips agents with domain-specific patterns, architectural guardrails, best practices, and expert execution routines across AI engineering, full-stack development, data architecture, debugging, and workflow automation.
+A curated repository of production-grade **AI Agent Skills** designed for autonomous AI agents and pair-programming assistants. This library equips agents with domain-specific patterns, architectural guardrails, best practices, and expert execution routines across AI engineering, Cloudflare serverless edge, full-stack development, data architecture, debugging, and workflow automation.
 
 ---
 
-## ⚡ Quick Start: Install All 74+ Skills via CLI
+## ⚡ Quick Start: Install All 88+ Skills via CLI
 
 Install all skills directly into your project or globally using the `npx skills` CLI command:
 
@@ -26,7 +26,7 @@ npx skills add shahin1717/ai-skills -g
 ```
 
 ### 🎯 Install a Specific Skill
-To install just a single skill (e.g. `ai-engineer` or `diagnosing-bugs`):
+To install just a single skill (e.g. `ai-engineer`, `cloudflare`, or `diagnosing-bugs`):
 
 ```bash
 npx skills add shahin1717/ai-skills --skill=ai-engineer
@@ -52,11 +52,14 @@ An **AI Skill** is a structured instruction package (`SKILL.md`) loaded into an 
 ```text
 ai-skills/
 ├── .agents/
-│   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all skills
-│   └── skills/                 # 74 specialized agent skill directories
+│   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all 88 skills
+│   └── skills/                 # 88 specialized agent skill directories
+│       ├── agents-sdk/
 │       ├── ai-engineer/
+│       ├── cloudflare/
 │       ├── diagnosing-bugs/
 │       ├── python-pro/
+│       ├── sentry-fix-issues/
 │       ├── database-architect/
 │       ├── obsidian-markdown/
 │       └── ...
@@ -106,7 +109,7 @@ The skills in this repository are curated and compiled from top upstream AI agen
 
 ## 🛠️ Skill Categories Overview
 
-This repository provides **74 specialized skills** across key engineering domains:
+This repository provides **88 specialized skills** across key engineering domains:
 
 ### 🧠 AI & Machine Learning
 * **`ai-engineer`**: LLM applications, RAG systems, vector search, and agent orchestration.
@@ -116,6 +119,17 @@ This repository provides **74 specialized skills** across key engineering domain
 * **`langchain-architecture`**: Agentic workflows, tool integration, and memory patterns.
 * **`llm-application-dev-prompt-optimize`**: Advanced prompt engineering (CoT, Constitutional AI).
 * **`vector-database-engineer`**: Pinecone, Weaviate, Qdrant, Milvus, and pgvector implementations.
+* **`composio`**: 1000+ external app integrations via CLI or SDK for AI agents.
+
+### ☁️ Cloudflare Ecosystem & Serverless Edge
+* **`agents-sdk`**: Stateful AI agents on Cloudflare Workers, Durable Objects, and WebSockets.
+* **`cloudflare`**: Comprehensive Cloudflare platform (Workers, Pages, KV, D1, R2, Vectorize).
+* **`cloudflare-email-service`**: Transactional email sending and routing integration.
+* **`cloudflare-one`** & **`cloudflare-one-migrations`**: Zero Trust, SASE, Access, Gateway, and migration tools.
+* **`durable-objects`**: Cloudflare Durable Objects, RPC methods, SQLite storage, and alarms.
+* **`sandbox-sdk`**: Sandboxed applications for secure code execution and live previews.
+* **`turnstile-spin`**: End-to-end Cloudflare Turnstile bot verification and CAPTCHA setup.
+* **`workers-best-practices`** & **`wrangler`**: Cloudflare Workers CLI and production architectural patterns.
 
 ### 🐍 Python & Backend Engineering
 * **`python-pro`**: Modern Python 3.12+ features, async/await, and production standards.
@@ -128,11 +142,12 @@ This repository provides **74 specialized skills** across key engineering domain
 
 ### 🗄️ Data & Database Engineering
 * **`data-engineer`**: Scalable data pipelines using Spark, dbt, Airflow, and cloud platforms.
+* **`data-engineering-data-pipeline`** & **`data-engineering-data-driven-feature`**: Scalable pipeline design & data-driven features.
 * **`data-quality-frameworks`**: Data validation with Great Expectations and dbt tests.
-* **`database-architect`**: Green-field schema design, SQL/NoSQL selection, and data modeling.
-* **`database-optimizer`**: Advanced indexing, EXPLAIN analysis, and N+1 query elimination.
-* **`database-migration`**: Zero-downtime database migrations and rollback procedures.
-* **`postgresql`**: PostgreSQL schema design, jsonb strategies, and query performance.
+* **`database-architect`**: Greenfield schema design, SQL/NoSQL selection, and data modeling.
+* **`database-optimizer`** & **`sql-optimization-patterns`**: Advanced indexing, EXPLAIN analysis, N+1 query elimination.
+* **`database-migration`**, **`database-migrations-sql-migrations`**, **`database-migrations-migration-observability`**: Zero-downtime database migrations, CDC, and observability.
+* **`postgresql`** & **`sql-pro`**: PostgreSQL schema design, jsonb strategies, and query performance.
 * **`spark-optimization`**: Apache Spark memory tuning, partitioning, and shuffle minimization.
 
 ### 🏗️ Architecture & Code Quality
@@ -140,18 +155,20 @@ This repository provides **74 specialized skills** across key engineering domain
 * **`architecture-patterns`**: Clean Architecture, Hexagonal Architecture, and Domain-Driven Design (DDD).
 * **`codebase-design`**: Deep module design principles and interface separation.
 * **`code-review`**: Automated review against coding standards and specification requirements.
-* **`code-refactoring-refactor-clean`**: SOLID refactoring and technical debt reduction.
+* **`code-refactoring-refactor-clean`** & **`codebase-cleanup-refactor-clean`**: SOLID refactoring and technical debt reduction.
+* **`improve-codebase-architecture`**: Deepening opportunities visual analysis and architectural refactoring.
 
-### 🌐 Web, Frontend & APIs
+### 🌐 Web, Frontend & Performance
 * **`frontend-developer`**: React 19, Next.js 15, state management, and responsive layouts.
 * **`nextjs-app-router-patterns`**: Next.js App Router, Server Components, and streaming.
-* **`api-design-principles`**: REST and GraphQL API standards and developer experience.
-* **`api-documenter`**: OpenAPI 3.1 specifications, interactive docs, and SDK generation.
+* **`web-perf`**: Core Web Vitals analysis (LCP, INP, CLS) and Chrome DevTools MCP optimization.
+* **`api-design-principles`** & **`api-documenter`**: REST and GraphQL standards, OpenAPI 3.1 specifications.
 
-### 🔬 Debugging, Research & Workflow
+### 🔬 Debugging, Observability & Workflow
 * **`diagnosing-bugs`**: Systematic diagnosis loop for complex bugs and performance regressions.
+* **`sentry-fix-issues`**: Automated Sentry issue investigation and bug fixing via MCP.
 * **`research`**: In-depth technical research against high-trust primary sources.
-* **`grilling`** / **`grill-me`**: Relentless stress-testing of architecture plans and ideas.
+* **`grilling`** / **`grill-me`** / **`grill-with-docs`**: Stress-testing architecture plans, ideas, and ADRs.
 * **`defuddle`**: Extracting clean Markdown content from documentation web pages.
 * **`handoff`**: Structured context handoff notes for resuming complex multi-step tasks.
 
@@ -159,9 +176,10 @@ This repository provides **74 specialized skills** across key engineering domain
 * **`obsidian-markdown`**: Obsidian-flavored markdown syntax (wikilinks, callouts, embeds).
 * **`obsidian-bases`**: `.base` database views, card layouts, and formulas.
 * **`obsidian-cli`**: Command-line vault manipulation, searching, and note automation.
+* **`obsidian-workspace-sync`**: Sync `.code-workspace` settings with Obsidian vault profiles.
 * **`json-canvas`**: `.canvas` file creation and visual flowchart editing.
 
-*(For the complete list and detailed descriptions of all 74 skills, see [.agents/DESCRIPTIONS.md](file://.agents/DESCRIPTIONS.md)).*
+*(For the complete catalog and detailed usage matrix of all 88 skills, see [.agents/DESCRIPTIONS.md](file://.agents/DESCRIPTIONS.md)).*
 
 ---
 
@@ -169,7 +187,7 @@ This repository provides **74 specialized skills** across key engineering domain
 
 Agent tools automatically scan customization roots for skills:
 
-1. **Global Customizations**: `~/.gemini/config/skills/`
+1. **Global Customizations**: `~/.gemini/config/skills/` or `~/.agents/skills/`
 2. **Workspace Customizations**: `.agents/skills/<skill-name>/SKILL.md`
 
 When a user request matches a skill's `name` or `description`, the agent reads the skill instructions before initiating execution.
