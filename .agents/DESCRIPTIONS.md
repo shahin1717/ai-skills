@@ -34,6 +34,13 @@ Our workspace skills are sourced and installed using the `npx skills` CLI.
   npx skills add rmyndharis/antigravity-skills
   ```
 
+### 4. 📦 Deep Research Skills (`Weizhena/Deep-Research-skills`)
+* **GitHub Repository**: [https://github.com/Weizhena/Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills)
+* **Installation Command (All Skills)**:
+  ```bash
+  npx skills add Weizhena/Deep-Research-skills
+  ```
+
 ---
 
 ## 🔍 How Skills Are Triggered
@@ -42,7 +49,7 @@ Skills are matched automatically by name/description when you ask the agent to d
 
 ---
 
-## 📂 Complete Skills Reference (88 Available Skills)
+## 📂 Complete Skills Reference (92 Available Skills)
 
 ### 🧠 AI & Machine Learning
 | Skill | Description / Usage |
@@ -147,7 +154,11 @@ Skills are matched automatically by name/description when you ask the agent to d
 | :--- | :--- |
 | `diagnosing-bugs` | Systematic diagnosis loop for hard bugs and performance regressions. |
 | `sentry-fix-issues` | Automated Sentry issue investigation and bug fixing via MCP. |
-| `research` | Investigate questions against high-trust primary sources and capture as Markdown. |
+| `research` | Preliminary research framework generator (`outline.yaml`, `fields.yaml`) & `validate_json.py`. |
+| `research-add-fields` | Add/supplement field definitions into research `fields.yaml`. |
+| `research-add-items` | Add/supplement research objects/items into research `outline.yaml`. |
+| `research-deep` | Parallel batch deep research execution per item with validation. |
+| `research-report` | Synthesize deep research JSON results into markdown reports. |
 | `grilling` | Stress-test architecture plans and ideas with challenging questions. |
 | `grill-me` | Interactive interview to resolve design decisions. |
 | `grill-with-docs` | Grill ideas grounded in specific documentation (creates ADRs & glossary). |

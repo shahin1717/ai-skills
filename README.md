@@ -1,13 +1,13 @@
 # 🤖 AI Agent Skills Library (`ai-skills`)
 
-[![Skills Catalog](https://img.shields.io/badge/Skills-88%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
+[![Skills Catalog](https://img.shields.io/badge/Skills-92%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
 [![Agent Protocol](https://img.shields.io/badge/Protocol-Agentic%20Coding-ff69b4?style=for-the-badge)](.agents/skills)
 
 A curated repository of production-grade **AI Agent Skills** designed for autonomous AI agents and pair-programming assistants. This library equips agents with domain-specific patterns, architectural guardrails, best practices, and expert execution routines across AI engineering, Cloudflare serverless edge, full-stack development, data architecture, debugging, and workflow automation.
 
 ---
 
-## ⚡ Quick Start: Install All 88+ Skills via CLI
+## ⚡ Quick Start: Install All 92+ Skills via CLI
 
 Install all skills directly into your project or globally using the `npx skills` CLI command:
 
@@ -52,8 +52,8 @@ An **AI Skill** is a structured instruction package (`SKILL.md`) loaded into an 
 ```text
 ai-skills/
 ├── .agents/
-│   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all 88 skills
-│   └── skills/                 # 88 specialized agent skill directories
+│   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all 92 skills
+│   └── skills/                 # 92 specialized agent skill directories
 │       ├── agents-sdk/
 │       ├── ai-engineer/
 │       ├── cloudflare/
@@ -105,11 +105,22 @@ The skills in this repository are curated and compiled from top upstream AI agen
   npx skills add rmyndharis/antigravity-skills --skill=code-documentation-doc-generate
   ```
 
+### 4. 📦 Deep Research Skills (`Weizhena/Deep-Research-skills`)
+* **GitHub Repository**: [https://github.com/Weizhena/Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills)
+* **Install All Skills**:
+  ```bash
+  npx skills add Weizhena/Deep-Research-skills
+  ```
+* **Install Specific Skill** (e.g., `research-deep`):
+  ```bash
+  npx skills add Weizhena/Deep-Research-skills --skill=research-deep
+  ```
+
 ---
 
 ## 🛠️ Skill Categories Overview
 
-This repository provides **88 specialized skills** across key engineering domains:
+This repository provides **92 specialized skills** across key engineering domains:
 
 ### 🧠 AI & Machine Learning
 * **`ai-engineer`**: LLM applications, RAG systems, vector search, and agent orchestration.
