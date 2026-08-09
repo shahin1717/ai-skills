@@ -7,4 +7,5 @@
 # Whitelist specific required files and folders
 !.gitignore
 !README.md
+!call-doc.md
 !.agents/**
