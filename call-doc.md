@@ -16,6 +16,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 | **`/call-data`** | `call-data` | 13 skills | Big Data, Data Pipelines, SQL & DB Tuning |
 | **`/call-debug`** | `call-debug` | 7 skills | Deep Bug Diagnosis, Sentry & Performance |
 | **`/call-research`** | `call-research` | 8 skills | Deep Research, Web Scraping & Synthesis |
+| **`/call-doc`** | `call-doc` | 12 skills | Code Annotation, Header Docstrings & API Docs |
 
 ---
 
@@ -215,9 +216,34 @@ This document serves as the master quick-reference for all **Composite Calling S
 
 ---
 
+### /call-doc — Comprehensive Documentation, API Spec & Code Annotation
+**Description**: Reading project files to insert top-level file header docstrings, inline symbol/code annotations, OpenAPI specifications, technical architecture specs, and doc reviews.
+
+**Activation Command**: `/call-doc`
+
+**Included Skills (12 total)**:
+* `/code-documentation-doc-generate`
+* `/api-documenter`
+* `/api-design-principles`
+* `/grill-with-docs`
+* `/architect-review`
+* `/code-review`
+* `/codebase-design`
+* `/domain-modeling`
+* `/defuddle`
+* `/data-storytelling`
+* `/obsidian-markdown`
+* `/code-refactoring-refactor-clean`
+
+---
+
 ## 💡 How to Use Composite Skills in Conversation
 
 You can trigger any composite skill directly in your prompt:
+
+```text
+/call-doc document all files in this repository with header docstrings and inline function annotations
+```
 
 ```text
 /call-front build a dark-mode dashboard for tracking AI agent metrics

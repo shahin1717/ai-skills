@@ -8,7 +8,7 @@ A **skill** is a set of precise instructions loaded into the AI agent's context 
 
 ## 🚀 Composite Calling Skills (`call-doc.md`)
 
-Save time in conversation by invoking **Composite Calling Skills** (`/call-front`, `/call-backend`, `/call-ai-ml`, `/call-arch`, `/call-cloudflare`, `/call-data`, `/call-debug`, `/call-research`) to activate an entire bundle of specialized skills in a single command. See [call-doc.md](file://call-doc.md) for full details.
+Save time in conversation by invoking **Composite Calling Skills** (`/call-doc`, `/call-front`, `/call-backend`, `/call-ai-ml`, `/call-arch`, `/call-cloudflare`, `/call-data`, `/call-debug`, `/call-research`) to activate an entire bundle of specialized skills in a single command. See [call-doc.md](file://call-doc.md) for full details.
 
 ---
 
@@ -110,6 +110,7 @@ Skills are matched automatically by name/description when you ask the agent to d
 | `call-data` | Composite bundler skill: activates 13 big data pipeline, SQL query tuning, PostgreSQL, dbt, and database migration skills. |
 | `call-debug` | Composite bundler skill: activates 7 deep bug diagnosis, Sentry error fixing, Web Vitals performance, and mock testing skills. |
 | `call-research` | Composite bundler skill: activates 8 deep research execution, web page markdown extraction, and synthesis skills. |
+| `call-doc` | Composite bundler skill: activates 12 code annotation, header docstring, OpenAPI, architecture review, and documentation skills. |
 
 ---
 

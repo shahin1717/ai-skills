@@ -1,7 +1,7 @@
 # 🤖 AI Agent Skills Library (`ai-skills`)
 
 [![Skills Catalog](https://img.shields.io/badge/Skills-123%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
-[![Composite Skills](https://img.shields.io/badge/Calling--Skills-8%20Bundles-brightgreen?style=for-the-badge)](call-doc.md)
+[![Composite Skills](https://img.shields.io/badge/Calling--Skills-9%20Bundles-brightgreen?style=for-the-badge)](call-doc.md)
 [![Agent Protocol](https://img.shields.io/badge/Protocol-Agentic%20Coding-ff69b4?style=for-the-badge)](.agents/skills)
 
 A curated repository of production-grade **AI Agent Skills** designed for autonomous AI agents and pair-programming assistants. This library equips agents with domain-specific patterns, architectural guardrails, best practices, and expert execution routines across composite meta-skills, AI engineering, UI/UX design & motion, Cloudflare serverless edge, full-stack development, data architecture, debugging, and workflow automation.
@@ -52,6 +52,7 @@ Avoid invoking multiple individual skills one by one! Use **Composite Calling Sk
 | **`/call-data`** | `call-data` | 13 skills | Big Data, Data Pipelines, SQL & DB Tuning |
 | **`/call-debug`** | `call-debug` | 7 skills | Deep Bug Diagnosis, Sentry & Performance |
 | **`/call-research`** | `call-research` | 8 skills | Deep Research, Web Scraping & Synthesis |
+| **`/call-doc`** | `call-doc` | 12 skills | Code Annotation, Header Docstrings & API Docs |
 
 *(See [call-doc.md](file://call-doc.md) for full reference).*
 
@@ -71,10 +72,11 @@ An **AI Skill** is a structured instruction package (`SKILL.md`) loaded into an 
 
 ```text
 ai-skills/
-├── call-doc.md                 # Complete reference for 8 Composite Calling Skills
+├── call-doc.md                 # Complete reference for 9 Composite Calling Skills
 ├── .agents/
 │   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all 123 skills
 │   └── skills/                 # 123 specialized agent skill directories
+│       ├── call-doc/
 │       ├── call-ai-ml/
 │       ├── call-backend/
 │       ├── call-arch/
@@ -177,6 +179,7 @@ This repository provides **123 specialized skills** across key engineering domai
 * **`call-data`**: Composite bundler skill: activates 13 big data pipeline, SQL query tuning, PostgreSQL, dbt, and database migration skills.
 * **`call-debug`**: Composite bundler skill: activates 7 deep bug diagnosis, Sentry error fixing, Web Vitals performance, and mock testing skills.
 * **`call-research`**: Composite bundler skill: activates 8 deep research execution, web page markdown extraction, and synthesis skills.
+* **`call-doc`**: Composite bundler skill: activates 12 code annotation, header docstring, OpenAPI, architecture review, and documentation skills.
 
 ### 🧠 AI & Machine Learning
 * **`ai-engineer`**: Build production-ready LLM applications, advanced RAG systems, and intelligent agents.
