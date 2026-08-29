@@ -15,6 +15,8 @@ When specialized design systems, motion physics formulas, or specific UI framewo
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |
+| **`/ui-ux-pro-max`** | `.agents/skills/ui-ux-pro-max/SKILL.md` | Design intelligence, multi-platform UI generation (Web + Mobile) |
+| **`/hyperframes`** | `.agents/skills/hyperframes/SKILL.md` | Deterministic HTML/CSS video rendering, product tours, animations |
 | **`/frontend-developer`** | `.agents/skills/frontend-developer/SKILL.md` | React 19, client state management, responsive UI |
 | **`/nextjs-app-router-patterns`** | `.agents/skills/nextjs-app-router-patterns/SKILL.md` | Next.js 15 App Router, Server Components, Streaming |
 | **`/impeccable`** | `.agents/skills/impeccable/SKILL.md` | Visual hierarchy, cognitive load, typography & design polish |

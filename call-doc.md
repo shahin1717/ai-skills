@@ -8,15 +8,16 @@ This document serves as the master quick-reference for all **Composite Calling S
 
 | Shortcut Command | Composite Skill Name | Total Bundled Skills | Primary Domain |
 | :--- | :--- | :---: | :--- |
-| **`/call-feature`** | `call-feature` | 10+ sub-skills | Master Multi-Agent Feature Delivery Pipeline |
+| **`/call-feature`** | `call-feature` | 15+ sub-skills | Master Multi-Agent Feature Delivery Pipeline |
+| **`/call-build`** | `call-build` | 15 skills | Engineering Methodology, TDD, Roles & Restraint |
 | **`/call-ai-ml`** | `call-ai-ml` | 22 skills | Full-Stack AI/ML, RAG, Vectors, LLM & Pipelines |
 | **`/call-backend`** | `call-backend` | 22 skills | Backend APIs, FastAPI, Node.js, DB & Performance |
 | **`/call-arch`** | `call-arch` | 14 skills | Architecture Design, Domain Modeling & Refactoring |
-| **`/call-front`** | `call-front` | 25 skills | Frontend, UI/UX Aesthetics, Next.js & Motion |
+| **`/call-front`** | `call-front` | 27 skills | Frontend, UI/UX Aesthetics, Next.js & Motion |
 | **`/call-cloudflare`** | `call-cloudflare` | 11 skills | Cloudflare Edge, Workers, DO & Infrastructure |
 | **`/call-data`** | `call-data` | 13 skills | Big Data, Data Pipelines, SQL & DB Tuning |
 | **`/call-debug`** | `call-debug` | 7 skills | Deep Bug Diagnosis, Sentry & Performance |
-| **`/call-research`** | `call-research` | 8 skills | Deep Research, Web Scraping & Synthesis |
+| **`/call-research`** | `call-research` | 14 skills | Deep Research, Web Scraping & Synthesis |
 | **`/call-doc`** | `call-doc` | 12 skills | Code Annotation, Header Docstrings & API Docs |
 
 ---
@@ -24,15 +25,40 @@ This document serves as the master quick-reference for all **Composite Calling S
 ## 📖 Composite Skill Breakdown
 
 ### /call-feature — Master Multi-Agent Feature Delivery
-**Description**: Orchestrating full-lifecycle feature development across architecture, backend & AI, frontend UI, testing, and documentation using specialized subagents.
+**Description**: Orchestrating full-lifecycle feature development across research, architecture, core engineering build, frontend UI, testing, and documentation using specialized subagents.
 
 **Activation Command**: `/call-feature <feature_description>`
 
 **Included Skills / Subagent Workflow**:
+* **Research**: `/call-research`, `/last30days`, `/graphify`, `/agent-browser`, `/defuddle`
 * **Architecture**: `/call-arch`, `/architect-review`, `/architecture-patterns`, `/domain-modeling`, `/database-architect`
-* **Backend & AI**: `/call-backend`, `/call-ai-ml`, `/fastapi-pro`, `/ai-engineer`, `/sql-optimization-patterns`
-* **Frontend UI**: `/call-front`, `/frontend-developer`, `/impeccable`, `/design-taste-frontend`, `/animate`
-* **Testing & Docs**: `/call-debug`, `/call-doc`, `/diagnosing-bugs`, `/code-review`, `/code-documentation-doc-generate`
+* **Build & Backend Engineering**: `/call-build`, `/call-backend`, `/superpowers`, `/ponytail`, `/fastapi-pro`, `/nodejs-backend-patterns`, `/ai-engineer`, `/sql-optimization-patterns`
+* **Frontend UI**: `/call-front`, `/ui-ux-pro-max`, `/impeccable`, `/design-taste-frontend`, `/hyperframes`, `/animate`
+* **Testing & Docs**: `/call-debug`, `/call-doc`, `/diagnosing-bugs`, `/code-review`, `/code-documentation-doc-generate`, `/i-have-adhd`
+
+---
+
+### /call-build — Engineering Methodology, TDD & Team Execution
+**Description**: Disciplined test-driven development, virtual team roles, anti-overengineering restraint, and high-density execution.
+
+**Activation Command**: `/call-build`
+
+**Included Skills (15 total)**:
+* `/using-superpowers`
+* `/subagent-driven-development`
+* `/test-driven-development`
+* `/gstack`
+* `/ponytail`
+* `/caveman`
+* `/i-have-adhd`
+* `/fastapi-pro`
+* `/fastapi-templates`
+* `/nodejs-backend-patterns`
+* `/python-pro`
+* `/async-python-patterns`
+* `/python-testing-patterns`
+* `/code-refactoring-refactor-clean`
+* `/verification-before-completion`
 
 ---
 

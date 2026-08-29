@@ -15,6 +15,13 @@ When deep schemas, batch configs, or specific sub-workflows are required, read t
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |
+| **`/last30days`** | `.agents/skills/last30days/SKILL.md` | Grounded multi-source research aggregating Reddit, X, YouTube, HN trends |
+| **`/graphify`** | `.agents/skills/graphify/SKILL.md` | Local AST parser converting codebases, docs, and schemas into knowledge graphs |
+| **`/agent-browser`** | `.agents/skills/agent-browser/SKILL.md` | Browser automation CLI for live site testing and data extraction |
+| **`/find-skills`** | `.agents/skills/find-skills/SKILL.md` | Meta-skill to discover and install new skills across the ecosystem |
+| **`/claude-hub`** | `.agents/skills/claude-hub/SKILL.md` | Bridge AI agents with GitHub repositories, issues, PRs, and actions |
+| **`/skill-creator`** | `.agents/skills/skill-creator/SKILL.md` | Procedural framework for creating, validating, and packaging agent skills |
+| **`/grill-me`** | `.agents/skills/grill-me/SKILL.md` | Relentless interview to sharpen plans, stress-test ideas, and eliminate blindspots |
 | **`/research`** | `.agents/skills/research/SKILL.md` | 5-step research lifecycle, `outline.yaml` & `fields.yaml` schemas |
 | **`/defuddle`** | `.agents/skills/defuddle/SKILL.md` | Token-efficient web extraction CLI (`defuddle parse <url> --md`) |
 | **`/research-add-fields`** | `.agents/skills/research-add-fields/SKILL.md` | Expanding taxonomy and multi-tier field definitions |

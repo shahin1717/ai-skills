@@ -1,14 +1,14 @@
 # 🤖 AI Agent Skills Library (`ai-skills`)
 
-[![Skills Catalog](https://img.shields.io/badge/Skills-124%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
-[![Composite Skills](https://img.shields.io/badge/Calling--Skills-10%20Bundles-brightgreen?style=for-the-badge)](call-doc.md)
+[![Skills Catalog](https://img.shields.io/badge/Skills-200%2B%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
+[![Composite Skills](https://img.shields.io/badge/Calling--Skills-11%20Bundles-brightgreen?style=for-the-badge)](call-doc.md)
 [![Agent Protocol](https://img.shields.io/badge/Protocol-Agentic%20Coding-ff69b4?style=for-the-badge)](.agents/skills)
 
 A curated repository of production-grade **AI Agent Skills** designed for autonomous AI agents and pair-programming assistants. This library equips agents with domain-specific patterns, architectural guardrails, best practices, and expert execution routines across composite meta-skills, AI engineering, UI/UX design & motion, Cloudflare serverless edge, full-stack development, data architecture, debugging, and workflow automation.
 
 ---
 
-## ⚡ Quick Start: Install All 124+ Skills via CLI
+## ⚡ Quick Start: Install All 200+ Skills via CLI
 
 Install all skills directly into your project or globally using the `npx skills` CLI command:
 
@@ -27,10 +27,10 @@ npx skills add shahin1717/ai-skills -g
 ```
 
 ### 🎯 Install a Specific Skill or Composite Bundle
-To install a specific skill (e.g. `call-front`, `call-backend`, `impeccable`, or `ai-engineer`):
+To install a specific skill (e.g. `call-feature`, `call-build`, `call-front`, `call-research`):
 
 ```bash
-npx skills add shahin1717/ai-skills --skill=call-front
+npx skills add shahin1717/ai-skills --skill=call-feature
 ```
 
 > [!IMPORTANT]
@@ -44,15 +44,16 @@ Avoid invoking multiple individual skills one by one! Use **Composite Calling Sk
 
 | Shortcut Command | Composite Skill Name | Total Bundled Skills | Primary Domain |
 | :--- | :--- | :---: | :--- |
-| **`/call-feature`** | `call-feature` | 10+ sub-skills | Master Multi-Agent Feature Delivery Pipeline |
+| **`/call-feature`** | `call-feature` | 15+ sub-skills | Master Multi-Agent Feature Delivery Pipeline |
+| **`/call-build`** | `call-build` | 15 skills | Engineering Methodology, TDD, Roles & Restraint |
 | **`/call-ai-ml`** | `call-ai-ml` | 22 skills | Full-Stack AI/ML, RAG, Vectors, LLM & Pipelines |
 | **`/call-backend`** | `call-backend` | 22 skills | Backend APIs, FastAPI, Node.js, DB & Performance |
 | **`/call-arch`** | `call-arch` | 14 skills | Architecture Design, Domain Modeling & Refactoring |
-| **`/call-front`** | `call-front` | 25 skills | Frontend, UI/UX Aesthetics, Next.js & Motion |
+| **`/call-front`** | `call-front` | 27 skills | Frontend, UI/UX Aesthetics, Next.js & Motion |
 | **`/call-cloudflare`** | `call-cloudflare` | 11 skills | Cloudflare Edge, Workers, DO & Infrastructure |
 | **`/call-data`** | `call-data` | 13 skills | Big Data, Data Pipelines, SQL & DB Tuning |
 | **`/call-debug`** | `call-debug` | 7 skills | Deep Bug Diagnosis, Sentry & Performance |
-| **`/call-research`** | `call-research` | 8 skills | Deep Research, Web Scraping & Synthesis |
+| **`/call-research`** | `call-research` | 14 skills | Deep Research, Web Scraping & Synthesis |
 | **`/call-doc`** | `call-doc` | 12 skills | Code Annotation, Header Docstrings & API Docs |
 
 *(See [call-doc.md](file://call-doc.md) for full reference).*
@@ -73,20 +74,30 @@ An **AI Skill** is a structured instruction package (`SKILL.md`) loaded into an 
 
 ```text
 ai-skills/
-├── call-doc.md                 # Complete reference for 10 Composite Calling Skills
+├── call-doc.md                 # Complete reference for 11 Composite Calling Skills
 ├── .agents/
-│   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all 125 skills
+│   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all 200+ skills
 │   ├── agents/                 # Dedicated subagent definitions (architect, backend, frontend, qa, web-search)
-│   └── skills/                 # 125 specialized agent skill directories
+│   └── skills/                 # 200+ specialized agent skill directories
 │       ├── call-feature/
+│       ├── call-build/
 │       ├── call-doc/
 │       ├── call-ai-ml/
 │       ├── call-backend/
 │       ├── call-arch/
 │       ├── call-front/
-│       ├── impeccable/
-│       ├── ai-engineer/
-│       ├── cloudflare/
+│       ├── call-research/
+│       ├── using-superpowers/
+│       ├── gstack/
+│       ├── caveman/
+│       ├── ponytail/
+│       ├── ui-ux-pro-max/
+│       ├── hyperframes/
+│       ├── graphify/
+│       ├── last30days/
+│       ├── agent-browser/
+│       ├── find-skills/
+│       ├── claude-hub/
 │       └── ...
 └── README.md                   # Main documentation
 ```
@@ -125,64 +136,65 @@ The skills in this repository are curated and compiled from top upstream AI agen
   npx skills add Weizhena/Deep-Research-skills
   ```
 
-### 5. 📦 Impeccable Design Skill (`pbakaus/impeccable`)
-* **GitHub Repository**: [https://github.com/pbakaus/impeccable](https://github.com/pbakaus/impeccable)
-* **Install Skill**:
-  ```bash
-  npx skills add pbakaus/impeccable
-  ```
-
-### 6. 📦 Taste Skill Engine (`Leonxlnx/taste-skill`)
-* **GitHub Repository**: [https://github.com/Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+### 5. 📦 Superpowers Methodology (`obra/superpowers`)
+* **GitHub Repository**: [https://github.com/obra/superpowers](https://github.com/obra/superpowers)
 * **Install All Skills**:
   ```bash
-  npx skills add Leonxlnx/taste-skill
+  npx skills add obra/superpowers
   ```
 
-### 7. 📦 Emil Kowalski Skills (`emilkowalski/skills`)
-* **GitHub Repository**: [https://github.com/emilkowalski/skills](https://github.com/emilkowalski/skills)
-* **Install All Skills**:
-  ```bash
-  npx skills add emilkowalski/skills
-  ```
-
-### 8. 📦 Cloudflare Agent Skills (`cloudflare/skills`)
-* **GitHub Repository**: [https://github.com/cloudflare/skills](https://github.com/cloudflare/skills)
-* **Install All Skills**:
-  ```bash
-  npx skills add cloudflare/skills
-  ```
-
-### 9. 📦 Sentry AI Skills (`getsentry/sentry-for-ai`)
-* **GitHub Repository**: [https://github.com/getsentry/sentry-for-ai](https://github.com/getsentry/sentry-for-ai)
+### 6. 📦 Garry Tan GStack (`garrytan/gstack`)
+* **GitHub Repository**: [https://github.com/garrytan/gstack](https://github.com/garrytan/gstack)
 * **Install Skill**:
   ```bash
-  npx skills add getsentry/sentry-for-ai
+  npx skills add garrytan/gstack
   ```
 
-### 10. 📦 Composio Skills (`composiohq/skills`)
-* **GitHub Repository**: [https://github.com/composiohq/skills](https://github.com/composiohq/skills)
+### 7. 📦 UI/UX Pro Max (`nextlevelbuilder/ui-ux-pro-max-skill`)
+* **GitHub Repository**: [https://github.com/nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+* **Install All Skills**:
+  ```bash
+  npx skills add nextlevelbuilder/ui-ux-pro-max-skill
+  ```
+
+### 8. 📦 HyperFrames Video Engine (`heygen-com/hyperframes`)
+* **GitHub Repository**: [https://github.com/heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+* **Install All Skills**:
+  ```bash
+  npx skills add heygen-com/hyperframes
+  ```
+
+### 9. 📦 Last30Days Research (`mvanhorn/last30days-skill`)
+* **GitHub Repository**: [https://github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
 * **Install Skill**:
   ```bash
-  npx skills add composiohq/skills
+  npx skills add mvanhorn/last30days-skill
+  ```
+
+### 10. 📦 Agent Browser (`vercel-labs/agent-browser`)
+* **GitHub Repository**: [https://github.com/vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
+* **Install Skill**:
+  ```bash
+  npx skills add vercel-labs/agent-browser
   ```
 
 ---
 
 ## 🛠️ Skill Categories Overview
 
-This repository provides **125 specialized skills** across key engineering domains:
+This repository provides **200+ specialized skills** across key engineering domains:
 
 ### 🚀 Composite Calling Skills (Meta Bundles)
-* **`call-feature`**: Master composite skill: orchestrates full-lifecycle multi-agent feature delivery across architecture, backend, frontend, testing, and docs using parallel subagents.
+* **`call-feature`**: Master composite skill: orchestrates full-lifecycle multi-agent feature delivery across research, architecture, core engineering build, frontend UI, testing, and docs using parallel subagents.
+* **`call-build`**: Composite bundler skill: activates 15 software engineering discipline, TDD, virtual team roles, anti-overengineering (ponytail), and high-density token execution skills.
 * **`call-ai-ml`**: Composite bundler skill: activates 22 AI/ML, RAG, vector database, prompt optimization, and FastAPI pipeline skills at once.
 * **`call-backend`**: Composite bundler skill: activates 22 backend development, FastAPI/Node.js, DB architecture, performance, and clean code skills.
 * **`call-arch`**: Composite bundler skill: activates 14 architecture design, deep module refactoring, domain modeling, and system review skills.
-* **`call-front`**: Composite bundler skill: activates 25 frontend, UI/UX visual aesthetics, Next.js, and web motion/animation skills.
+* **`call-front`**: Composite bundler skill: activates 27 frontend, UI/UX visual aesthetics, Next.js, and web motion/animation skills.
 * **`call-cloudflare`**: Composite bundler skill: activates 11 Cloudflare edge, Workers, Durable Objects, Zero Trust, and Wrangler CLI skills.
 * **`call-data`**: Composite bundler skill: activates 13 big data pipeline, SQL query tuning, PostgreSQL, dbt, and database migration skills.
 * **`call-debug`**: Composite bundler skill: activates 7 deep bug diagnosis, Sentry error fixing, Web Vitals performance, and mock testing skills.
-* **`call-research`**: Composite bundler skill: activates 8 deep research execution, web page markdown extraction, and synthesis skills.
+* **`call-research`**: Composite bundler skill: activates 14 deep research execution, web page markdown extraction, graph parsing, trends, and synthesis skills.
 * **`call-doc`**: Composite bundler skill: activates 12 code annotation, header docstring, OpenAPI, architecture review, and documentation skills.
 
 ### 🧠 AI & Machine Learning
@@ -318,7 +330,7 @@ This repository provides **125 specialized skills** across key engineering domai
 * **`ios-developer`**: Develop native iOS applications with Swift/SwiftUI.
 * **`unity-ecs-patterns`**: Master Unity ECS (Entity Component System) with DOTS, Jobs, and Burst for high-performance game development.
 
-*(For the complete catalog and detailed usage matrix of all 125 skills, see [.agents/DESCRIPTIONS.md](file://.agents/DESCRIPTIONS.md)).*
+*(For the complete catalog and detailed usage matrix of all 200+ skills, see [.agents/DESCRIPTIONS.md](file://.agents/DESCRIPTIONS.md)).*
 
 ---
 

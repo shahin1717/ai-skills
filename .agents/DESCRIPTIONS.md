@@ -8,7 +8,7 @@ A **skill** is a set of precise instructions loaded into the AI agent's context 
 
 ## 🚀 Composite Calling Skills (`call-doc.md`)
 
-Save time in conversation by invoking **Composite Calling Skills** (`/call-feature`, `/call-doc`, `/call-front`, `/call-backend`, `/call-ai-ml`, `/call-arch`, `/call-cloudflare`, `/call-data`, `/call-debug`, `/call-research`) to activate an entire bundle of specialized skills in a single command. See [call-doc.md](file://call-doc.md) for full details.
+Save time in conversation by invoking **Composite Calling Skills** (`/call-feature`, `/call-build`, `/call-doc`, `/call-front`, `/call-backend`, `/call-ai-ml`, `/call-arch`, `/call-cloudflare`, `/call-data`, `/call-debug`, `/call-research`) to activate an entire bundle of specialized skills in a single command. See [call-doc.md](file://call-doc.md) for full details.
 
 ---
 
@@ -97,20 +97,21 @@ Skills are matched automatically by name/description when you ask the agent to d
 
 ---
 
-## 📂 Complete Skills Reference (124 Available Skills)
+## 📂 Complete Skills Reference (200+ Available Skills)
 
 ### 🚀 Composite Calling Skills (Meta Bundles)
 | Skill | Description / Usage |
 | :--- | :--- |
-| `call-feature` | Master composite skill: orchestrates full-lifecycle multi-agent feature delivery across architecture, backend, frontend, testing, and docs. |
+| `call-feature` | Master composite skill: orchestrates full-lifecycle multi-agent feature delivery across research, architecture, core engineering build, frontend UI, testing, and docs using parallel subagents. |
+| `call-build` | Composite bundler skill: activates 15 software engineering discipline, TDD, virtual team roles, anti-overengineering (ponytail), and high-density token execution skills. |
 | `call-ai-ml` | Composite bundler skill: activates 22 AI/ML, RAG, vector database, prompt optimization, and FastAPI pipeline skills at once. |
 | `call-backend` | Composite bundler skill: activates 22 backend development, FastAPI/Node.js, DB architecture, performance, and clean code skills. |
 | `call-arch` | Composite bundler skill: activates 14 architecture design, deep module refactoring, domain modeling, and system review skills. |
-| `call-front` | Composite bundler skill: activates 25 frontend, UI/UX visual aesthetics, Next.js, and web motion/animation skills. |
+| `call-front` | Composite bundler skill: activates 27 frontend, UI/UX visual aesthetics, Next.js, and web motion/animation skills. |
 | `call-cloudflare` | Composite bundler skill: activates 11 Cloudflare edge, Workers, Durable Objects, Zero Trust, and Wrangler CLI skills. |
 | `call-data` | Composite bundler skill: activates 13 big data pipeline, SQL query tuning, PostgreSQL, dbt, and database migration skills. |
 | `call-debug` | Composite bundler skill: activates 7 deep bug diagnosis, Sentry error fixing, Web Vitals performance, and mock testing skills. |
-| `call-research` | Composite bundler skill: activates 8 deep research execution, web page markdown extraction, and synthesis skills. |
+| `call-research` | Composite bundler skill: activates 14 deep research execution, web page markdown extraction, graph parsing, trends, and synthesis skills. |
 | `call-doc` | Composite bundler skill: activates 12 code annotation, header docstring, OpenAPI, architecture review, and documentation skills. |
 
 ---
@@ -151,6 +152,8 @@ Skills are matched automatically by name/description when you ask the agent to d
 ### 🎨 UI/UX Design, Motion & Frontend Engineering
 | Skill | Description / Usage |
 | :--- | :--- |
+| `ui-ux-pro-max` | Design intelligence, multi-platform UI generation, design systems, and responsive layout styling. |
+| `hyperframes` | Code-to-video engine: renders HTML/CSS into deterministic MP4 videos, product tours, and motion graphics. |
 | `impeccable` | Frontend design, polish, typography, spacing, color, motion, micro-interactions, and visual hardening. |
 | `emil-design-eng` | Emil Kowalski's philosophy on UI polish, component design, animation decisions, and micro-interactions. |
 | `apple-design` | Apple-style interface design, fluid physical motion, spring animations, depth materials, and typography. |
@@ -179,9 +182,16 @@ Skills are matched automatically by name/description when you ask the agent to d
 
 ---
 
-### 🐍 Python & Backend Engineering
+### 🏗️ Build Methodology, Python & Backend Engineering
 | Skill | Description / Usage |
 | :--- | :--- |
+| `using-superpowers` | Comprehensive software development methodology enforcing TDD discipline and structured engineering. |
+| `subagent-driven-development` | Orchestrating and dispatching parallel specialized subagents with isolated context boundaries. |
+| `test-driven-development` | Strict Red-Green-Refactor testing discipline for robust, zero-regression software delivery. |
+| `gstack` | Virtual engineering team roles (CEO, Eng Manager, Architect, QA Lead, Release Eng) by Garry Tan. |
+| `ponytail` | Anti-overengineering decision ladder (YAGNI, code reuse, native features before adding dependencies). |
+| `caveman` | Ultra-concise, high-density token-efficient responses eliminating filler words and fluff. |
+| `i-have-adhd` | Action-first, bounded, scannable steps without buried conclusions or rambling explanations. |
 | `python-pro` | Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. |
 | `python-performance-optimization` | Profile and optimize Python code using cProfile, memory profilers, and performance best practices. |
 | `python-testing-patterns` | Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. |
@@ -236,6 +246,11 @@ Skills are matched automatically by name/description when you ask the agent to d
 ### 🔬 Research, Debugging, Observability & Workflow
 | Skill | Description / Usage |
 | :--- | :--- |
+| `last30days` | Grounded multi-source research aggregating Reddit, X, YouTube, TikTok, and Hacker News trends. |
+| `graphify` | Local AST parser converting codebases, docs, and schemas into queryable knowledge graphs. |
+| `agent-browser` | Browser automation CLI for live website interaction, form filling, automated testing, and web data extraction. |
+| `find-skills` | Meta-skill to discover, search, and install new skills across the ecosystem. |
+| `claude-hub` | Bridge AI agents with GitHub repositories, issues, pull requests, and automated release workflows. |
 | `diagnosing-bugs` | Diagnosis loop for hard bugs and performance regressions. |
 | `sentry-fix-issues` | Automated Sentry issue investigation and bug fixing via MCP. |
 | `research` | Conduct preliminary research on a topic and generate research outline. |
