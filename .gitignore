@@ -8,4 +8,5 @@
 !.gitignore
 !README.md
 !call-doc.md
+!sync_skills.py
 !.agents/**

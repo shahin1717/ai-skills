@@ -5,22 +5,28 @@ description: Composite bundler skill activating all documentation, API specifica
 
 # 🚀 Composite Skill: Comprehensive Documentation, API Spec & Code Annotation (`/call-doc`)
 
-When triggered, this composite skill automatically loads the patterns, guidelines, architectural guardrails, and procedural knowledge of **12 specialized documentation and review skills**:
+This composite skill drives comprehensive codebase documentation, strict module docstrings, OpenAPI/GraphQL specifications, and architectural documentation.
 
-## 📦 Bundled Skills
+---
 
-- **`/code-documentation-doc-generate`**
-- **`/api-documenter`**
-- **`/api-design-principles`**
-- **`/grill-with-docs`**
-- **`/architect-review`**
-- **`/code-review`**
-- **`/codebase-design`**
-- **`/domain-modeling`**
-- **`/defuddle`**
-- **`/data-storytelling`**
-- **`/obsidian-markdown`**
-- **`/code-refactoring-refactor-clean`**
+## 📦 Bundled Skills & Deep References
+
+When detailed API schemas, documentation generators, or specific review workflows are required, read the corresponding skill using `view_file`:
+
+| Skill | Path | Focus & On-Demand Capabilities |
+| :--- | :--- | :--- |
+| **`/code-documentation-doc-generate`** | `.agents/skills/code-documentation-doc-generate/SKILL.md` | Automated API docs, system overview diagrams, user guides |
+| **`/api-documenter`** | `.agents/skills/api-documenter/SKILL.md` | OpenAPI 3.1 specifications, interactive developer docs |
+| **`/api-design-principles`** | `.agents/skills/api-design-principles/SKILL.md` | REST/GraphQL design principles, contract guidelines |
+| **`/grill-with-docs`** | `.agents/skills/grill-with-docs/SKILL.md` | Stress-testing documentation against real architectural constraints |
+| **`/architect-review`** | `.agents/skills/architect-review/SKILL.md` | Architecture validation, clean interface review |
+| **`/code-review`** | `.agents/skills/code-review/SKILL.md` | Standards vs spec code review & doc completeness check |
+| **`/codebase-design`** | `.agents/skills/codebase-design/SKILL.md` | Deep module interfaces, cognitive clarity |
+| **`/domain-modeling`** | `.agents/skills/domain-modeling/SKILL.md` | Ubiquitous language, domain definitions & invariants |
+| **`/defuddle`** | `.agents/skills/defuddle/SKILL.md` | Clean markdown extraction from web docs |
+| **`/data-storytelling`** | `.agents/skills/data-storytelling/SKILL.md` | Clear technical narratives, tables, and visual explanations |
+| **`/obsidian-markdown`** | `.agents/skills/obsidian-markdown/SKILL.md` | Obsidian-flavored markdown, wikilinks, callouts, frontmatter |
+| **`/code-refactoring-refactor-clean`** | `.agents/skills/code-refactoring-refactor-clean/SKILL.md` | Clean code standards, readability enhancements |
 
 ---
 
@@ -68,7 +74,7 @@ When `/call-doc` is invoked:
 
 1. **Integrated Analysis**:
    - Scan workspace project files to understand codebase structure and domain models.
-   - Evaluate public interfaces, API contracts, and structural relationships using `/codebase-design`, `/domain-modeling`, and `/api-design-principles`.
+   - Evaluate public interfaces, API contracts, and structural relationships.
 2. **File Header & In-Code Annotation**:
    - Read each source file.
    - Add/update top-level file header docstrings outlining file purpose, system role, exports, and invariants.
@@ -76,7 +82,7 @@ When `/call-doc` is invoked:
 3. **API & Technical Documentation Synthesis**:
    - Generate OpenAPI/GraphQL specifications using `/api-documenter`.
    - Create automated technical docs, architecture diagrams, and user guides using `/code-documentation-doc-generate`.
-   - Validate doc consistency against requirements and architecture using `/architect-review` and `/grill-with-docs`.
+   - Validate doc consistency against requirements and architecture.
 4. **Quality & Integrity Verification**:
    - Ensure 100% functional equivalence and zero code regression.
    - Run syntax validators, type checkers, and test suites to verify docstrings and code integrity.
