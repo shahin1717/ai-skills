@@ -1,14 +1,14 @@
 # 🤖 AI Agent Skills Library (`ai-skills`)
 
-[![Skills Catalog](https://img.shields.io/badge/Skills-123%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
-[![Composite Skills](https://img.shields.io/badge/Calling--Skills-9%20Bundles-brightgreen?style=for-the-badge)](call-doc.md)
+[![Skills Catalog](https://img.shields.io/badge/Skills-124%20Available-blueviolet?style=for-the-badge&logo=probot)](.agents/DESCRIPTIONS.md)
+[![Composite Skills](https://img.shields.io/badge/Calling--Skills-10%20Bundles-brightgreen?style=for-the-badge)](call-doc.md)
 [![Agent Protocol](https://img.shields.io/badge/Protocol-Agentic%20Coding-ff69b4?style=for-the-badge)](.agents/skills)
 
 A curated repository of production-grade **AI Agent Skills** designed for autonomous AI agents and pair-programming assistants. This library equips agents with domain-specific patterns, architectural guardrails, best practices, and expert execution routines across composite meta-skills, AI engineering, UI/UX design & motion, Cloudflare serverless edge, full-stack development, data architecture, debugging, and workflow automation.
 
 ---
 
-## ⚡ Quick Start: Install All 123+ Skills via CLI
+## ⚡ Quick Start: Install All 124+ Skills via CLI
 
 Install all skills directly into your project or globally using the `npx skills` CLI command:
 
@@ -44,6 +44,7 @@ Avoid invoking multiple individual skills one by one! Use **Composite Calling Sk
 
 | Shortcut Command | Composite Skill Name | Total Bundled Skills | Primary Domain |
 | :--- | :--- | :---: | :--- |
+| **`/call-feature`** | `call-feature` | 10+ sub-skills | Master Multi-Agent Feature Delivery Pipeline |
 | **`/call-ai-ml`** | `call-ai-ml` | 22 skills | Full-Stack AI/ML, RAG, Vectors, LLM & Pipelines |
 | **`/call-backend`** | `call-backend` | 22 skills | Backend APIs, FastAPI, Node.js, DB & Performance |
 | **`/call-arch`** | `call-arch` | 14 skills | Architecture Design, Domain Modeling & Refactoring |
@@ -72,10 +73,12 @@ An **AI Skill** is a structured instruction package (`SKILL.md`) loaded into an 
 
 ```text
 ai-skills/
-├── call-doc.md                 # Complete reference for 9 Composite Calling Skills
+├── call-doc.md                 # Complete reference for 10 Composite Calling Skills
 ├── .agents/
-│   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all 123 skills
-│   └── skills/                 # 123 specialized agent skill directories
+│   ├── DESCRIPTIONS.md         # Full catalog and usage matrix for all 125 skills
+│   ├── agents/                 # Dedicated subagent definitions (architect, backend, frontend, qa, web-search)
+│   └── skills/                 # 125 specialized agent skill directories
+│       ├── call-feature/
 │       ├── call-doc/
 │       ├── call-ai-ml/
 │       ├── call-backend/
@@ -168,9 +171,10 @@ The skills in this repository are curated and compiled from top upstream AI agen
 
 ## 🛠️ Skill Categories Overview
 
-This repository provides **123 specialized skills** across key engineering domains:
+This repository provides **125 specialized skills** across key engineering domains:
 
 ### 🚀 Composite Calling Skills (Meta Bundles)
+* **`call-feature`**: Master composite skill: orchestrates full-lifecycle multi-agent feature delivery across architecture, backend, frontend, testing, and docs using parallel subagents.
 * **`call-ai-ml`**: Composite bundler skill: activates 22 AI/ML, RAG, vector database, prompt optimization, and FastAPI pipeline skills at once.
 * **`call-backend`**: Composite bundler skill: activates 22 backend development, FastAPI/Node.js, DB architecture, performance, and clean code skills.
 * **`call-arch`**: Composite bundler skill: activates 14 architecture design, deep module refactoring, domain modeling, and system review skills.
@@ -314,7 +318,19 @@ This repository provides **123 specialized skills** across key engineering domai
 * **`ios-developer`**: Develop native iOS applications with Swift/SwiftUI.
 * **`unity-ecs-patterns`**: Master Unity ECS (Entity Component System) with DOTS, Jobs, and Burst for high-performance game development.
 
-*(For the complete catalog and detailed usage matrix of all 123 skills, see [.agents/DESCRIPTIONS.md](file://.agents/DESCRIPTIONS.md)).*
+*(For the complete catalog and detailed usage matrix of all 125 skills, see [.agents/DESCRIPTIONS.md](file://.agents/DESCRIPTIONS.md)).*
+
+---
+
+## 🤖 Dedicated Subagents (`.agents/agents/`)
+
+In addition to modular skills, this repository includes dedicated subagent profiles in `.agents/agents/` for multi-agent workflows and orchestrations:
+
+* **`architect-agent.md`**: Specialized in Domain-Driven Design (DDD), Clean Architecture, DB schemas, and OpenAPI contracts.
+* **`backend-agent.md`**: Specialized in async APIs (FastAPI/Node.js), database repositories, and AI/ML pipelines.
+* **`frontend-agent.md`**: Specialized in React 19 / Next.js 15, anti-slop visual styling, and physics-based motion.
+* **`qa-docs-agent.md`**: Specialized in test suite generation, edge case validation, and technical documentation.
+* **`web-search-agent.md`**: Specialized in creative search queries, multi-source exploration (GitHub Issues, Reddit, arXiv, Tech forums).
 
 ---
 

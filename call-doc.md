@@ -8,6 +8,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 
 | Shortcut Command | Composite Skill Name | Total Bundled Skills | Primary Domain |
 | :--- | :--- | :---: | :--- |
+| **`/call-feature`** | `call-feature` | 10+ sub-skills | Master Multi-Agent Feature Delivery Pipeline |
 | **`/call-ai-ml`** | `call-ai-ml` | 22 skills | Full-Stack AI/ML, RAG, Vectors, LLM & Pipelines |
 | **`/call-backend`** | `call-backend` | 22 skills | Backend APIs, FastAPI, Node.js, DB & Performance |
 | **`/call-arch`** | `call-arch` | 14 skills | Architecture Design, Domain Modeling & Refactoring |
@@ -21,6 +22,19 @@ This document serves as the master quick-reference for all **Composite Calling S
 ---
 
 ## 📖 Composite Skill Breakdown
+
+### /call-feature — Master Multi-Agent Feature Delivery
+**Description**: Orchestrating full-lifecycle feature development across architecture, backend & AI, frontend UI, testing, and documentation using specialized subagents.
+
+**Activation Command**: `/call-feature <feature_description>`
+
+**Included Skills / Subagent Workflow**:
+* **Architecture**: `/call-arch`, `/architect-review`, `/architecture-patterns`, `/domain-modeling`, `/database-architect`
+* **Backend & AI**: `/call-backend`, `/call-ai-ml`, `/fastapi-pro`, `/ai-engineer`, `/sql-optimization-patterns`
+* **Frontend UI**: `/call-front`, `/frontend-developer`, `/impeccable`, `/design-taste-frontend`, `/animate`
+* **Testing & Docs**: `/call-debug`, `/call-doc`, `/diagnosing-bugs`, `/code-review`, `/code-documentation-doc-generate`
+
+---
 
 ### /call-ai-ml — Full-Stack AI/ML, RAG & Data Pipelines
 **Description**: Building production ML models, LLM applications, RAG vector systems, async data pipelines, and AI-powered FastAPI microservices.
