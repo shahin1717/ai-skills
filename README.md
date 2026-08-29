@@ -338,11 +338,11 @@ This repository provides **200+ specialized skills** across key engineering doma
 
 In addition to modular skills, this repository includes dedicated subagent profiles in `.agents/agents/` for multi-agent workflows and orchestrations:
 
-* **`architect-agent.md`**: Specialized in Domain-Driven Design (DDD), Clean Architecture, DB schemas, and OpenAPI contracts.
-* **`backend-agent.md`**: Specialized in async APIs (FastAPI/Node.js), database repositories, and AI/ML pipelines.
-* **`frontend-agent.md`**: Specialized in React 19 / Next.js 15, anti-slop visual styling, and physics-based motion.
-* **`qa-docs-agent.md`**: Specialized in test suite generation, edge case validation, and technical documentation.
-* **`web-search-agent.md`**: Specialized in creative search queries, multi-source exploration (GitHub Issues, Reddit, arXiv, Tech forums).
+* **`architect-agent`** (`.agents/agents/architect-agent/agent.md`): Specialized in Domain-Driven Design (DDD), Clean Architecture, DB schemas, and OpenAPI contracts.
+* **`backend-agent`** (`.agents/agents/backend-agent/agent.md`): Specialized in async APIs (FastAPI/Node.js), database repositories, and AI/ML pipelines.
+* **`frontend-agent`** (`.agents/agents/frontend-agent/agent.md`): Specialized in React 19 / Next.js 15, anti-slop visual styling, and physics-based motion.
+* **`qa-docs-agent`** (`.agents/agents/qa-docs-agent/agent.md`): Specialized in test suite generation, edge case validation, and technical documentation.
+* **`web-search-agent`** (`.agents/agents/web-search-agent/agent.md`): Specialized in creative search queries, multi-source exploration (GitHub Issues, Reddit, arXiv, Tech forums).
 
 ---
 
