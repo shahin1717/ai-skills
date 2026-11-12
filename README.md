@@ -320,6 +320,9 @@ This repository provides **200+ specialized skills** across key engineering doma
 ### 🛠️ Specialized Engineering & Compliance
 * **`airflow-dag-patterns`**: Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment.
 * **`code-documentation-doc-generate`**: You are a documentation expert specializing in creating comprehensive, maintainable documentation from code.
+* **`learning-material`**: Write learning materials (lessons, course notes, study guides) in Markdown or LaTeX that are clear and beautiful to read.
+* **`tutorial-design`**: Hands-on tutorials with progressive disclosure, exercises and checkpoints.
+* **`docs-style`**: Core writing principles for voice, tone and skimmable structure.
 * **`humanizer`**: Rewrite AI-sounding text so it reads like the writer without changing what it says (removes AI tells, filler, and inflated claims).
 * **`content-marketer`**: Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimiz...
 * **`legal-advisor`**: Draft privacy policies, terms of service, disclaimers, and legal notices.
@@ -344,6 +347,7 @@ In addition to modular skills, this repository includes dedicated subagent profi
 * **`frontend-agent`** (`.agents/agents/frontend-agent/agent.md`): Specialized in React 19 / Next.js 15, anti-slop visual styling, and physics-based motion.
 * **`qa-docs-agent`** (`.agents/agents/qa-docs-agent/agent.md`): Specialized in test suite generation, edge case validation, and technical documentation.
 * **`web-search-agent`** (`.agents/agents/web-search-agent/agent.md`): Specialized in creative search queries, multi-source exploration (GitHub Issues, Reddit, arXiv, Tech forums).
+* **`material-writer-agent`** (`.agents/agents/material-writer-agent/agent.md`): Writes learning materials (Markdown or LaTeX) on any subject. Runs on Opus and preloads `learning-material`, `humanizer`, `tutorial-design` and `docs-style`.
 
 ---
 

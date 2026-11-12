@@ -96,6 +96,20 @@ Our workspace skills are sourced and installed using the `npx skills` CLI.
   npx skills add blader/humanizer
   ```
 
+### 12. 📦 Tutorial Design (`nickcrew/claude-cortex`)
+* **GitHub Repository**: [https://github.com/nickcrew/claude-cortex](https://github.com/nickcrew/claude-cortex)
+* **Installation Command**:
+  ```bash
+  npx skills add nickcrew/claude-cortex --skill tutorial-design
+  ```
+
+### 13. 📦 Docs Style (`existential-birds/beagle`)
+* **GitHub Repository**: [https://github.com/existential-birds/beagle](https://github.com/existential-birds/beagle)
+* **Installation Command**:
+  ```bash
+  npx skills add existential-birds/beagle --skill docs-style
+  ```
+
 ---
 
 ## 🔍 How Skills Are Triggered
@@ -294,6 +308,9 @@ Skills are matched automatically by name/description when you ask the agent to d
 | :--- | :--- |
 | `airflow-dag-patterns` | Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. |
 | `code-documentation-doc-generate` | You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. |
+| `learning-material` | Write learning materials (lessons, course notes, study guides, cheat sheets) in Markdown or LaTeX: pedagogy, GitHub-ready formatting, LaTeX conventions, final checklist. |
+| `tutorial-design` | Design hands-on tutorials with progressive disclosure, exercises, checkpoints and troubleshooting. |
+| `docs-style` | Core writing principles for voice, tone, structure and skimmable pages. |
 | `humanizer` | Rewrite AI-sounding text so it reads like the writer without changing what it says; removes AI tells like not-X-but-Y contrasts, forced triads, filler, and inflated claims. |
 | `content-marketer` | Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimiz... |
 | `legal-advisor` | Draft privacy policies, terms of service, disclaimers, and legal notices. |
@@ -315,6 +332,7 @@ Skills are matched automatically by name/description when you ask the agent to d
 | `frontend-agent` | React 19 / Next.js 15, anti-slop visual styling, design tokens, and physics-based motion. |
 | `qa-docs-agent` | Test suite generation, edge case validation, OpenAPI docs, and top-level docstrings. |
 | `web-search-agent` | Creative query generation, multi-source exploration (GitHub Issues, Reddit, arXiv, Tech forums). |
+| `material-writer-agent` | Learning materials (lessons, course notes, study guides, LaTeX handouts) on any subject. Opus, preloads `learning-material`, `humanizer`, `tutorial-design`, `docs-style`. |
 
 ---
 

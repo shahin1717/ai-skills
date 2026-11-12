@@ -50,6 +50,23 @@ def link_claude_agents():
     print(f"Linked {len(wanted)} agents into {CLAUDE_AGENTS_DIR}: {', '.join(sorted(wanted))}")
 
 
+CLAUDE_SKILLS_DIR = os.path.expanduser("~/.claude/skills")
+GLOBAL_SKILLS_DIR = "/home/shahin/.agents/skills"
+
+
+def link_claude_skills():
+    """Symlink every global skill into ~/.claude/skills (existing entries are left alone)."""
+    os.makedirs(CLAUDE_SKILLS_DIR, exist_ok=True)
+    added = []
+    for name in sorted(os.listdir(GLOBAL_SKILLS_DIR)):
+        src = os.path.join(GLOBAL_SKILLS_DIR, name)
+        dst = os.path.join(CLAUDE_SKILLS_DIR, name)
+        if os.path.isdir(src) and not os.path.lexists(dst):
+            os.symlink(src, dst)
+            added.append(name)
+    print(f"Linked {len(added)} new skills into {CLAUDE_SKILLS_DIR}" + (f": {', '.join(added)}" if added else ""))
+
+
 def main():
     if not os.path.exists(SOURCE_SKILLS):
         print(f"Error: Source skills directory does not exist: {SOURCE_SKILLS}")
@@ -105,6 +122,7 @@ def main():
 
     print("-" * 60)
     link_claude_agents()
+    link_claude_skills()
     if all_passed:
         print(f"ALL SYNC TARGETS UPDATED SUCCESSFULLY WITH {source_skills_count} SKILLS!")
     else:
