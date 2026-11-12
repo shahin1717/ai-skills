@@ -89,6 +89,13 @@ Our workspace skills are sourced and installed using the `npx skills` CLI.
   npx skills add composiohq/skills
   ```
 
+### 11. 📦 Humanizer Skill (`blader/humanizer`)
+* **GitHub Repository**: [https://github.com/blader/humanizer](https://github.com/blader/humanizer)
+* **Installation Command**:
+  ```bash
+  npx skills add blader/humanizer
+  ```
+
 ---
 
 ## 🔍 How Skills Are Triggered
@@ -112,7 +119,7 @@ Skills are matched automatically by name/description when you ask the agent to d
 | `call-data` | Composite bundler skill: activates 13 big data pipeline, SQL query tuning, PostgreSQL, dbt, and database migration skills. |
 | `call-debug` | Composite bundler skill: activates 7 deep bug diagnosis, Sentry error fixing, Web Vitals performance, and mock testing skills. |
 | `call-research` | Composite bundler skill: activates 14 deep research execution, web page markdown extraction, graph parsing, trends, and synthesis skills. |
-| `call-doc` | Composite bundler skill: activates 12 code annotation, header docstring, OpenAPI, architecture review, and documentation skills. |
+| `call-doc` | Composite bundler skill: activates 13 code annotation, header docstring, OpenAPI, architecture review, and documentation skills. |
 
 ---
 
@@ -287,6 +294,7 @@ Skills are matched automatically by name/description when you ask the agent to d
 | :--- | :--- |
 | `airflow-dag-patterns` | Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. |
 | `code-documentation-doc-generate` | You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. |
+| `humanizer` | Rewrite AI-sounding text so it reads like the writer without changing what it says; removes AI tells like not-X-but-Y contrasts, forced triads, filler, and inflated claims. |
 | `content-marketer` | Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimiz... |
 | `legal-advisor` | Draft privacy policies, terms of service, disclaimers, and legal notices. |
 | `gdpr-data-handling` | Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. |

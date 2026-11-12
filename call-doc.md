@@ -18,7 +18,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 | **`/call-data`** | `call-data` | 13 skills | Big Data, Data Pipelines, SQL & DB Tuning |
 | **`/call-debug`** | `call-debug` | 7 skills | Deep Bug Diagnosis, Sentry & Performance |
 | **`/call-research`** | `call-research` | 14 skills | Deep Research, Web Scraping & Synthesis |
-| **`/call-doc`** | `call-doc` | 12 skills | Code Annotation, Header Docstrings & API Docs |
+| **`/call-doc`** | `call-doc` | 13 skills | Code Annotation, Header Docstrings & API Docs |
 
 ---
 
@@ -261,7 +261,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 
 **Activation Command**: `/call-doc`
 
-**Included Skills (12 total)**:
+**Included Skills (13 total)**:
 * `/code-documentation-doc-generate`
 * `/api-documenter`
 * `/api-design-principles`
@@ -274,6 +274,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 * `/data-storytelling`
 * `/obsidian-markdown`
 * `/code-refactoring-refactor-clean`
+* `/humanizer`
 
 ---
 

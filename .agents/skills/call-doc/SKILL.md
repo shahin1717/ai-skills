@@ -27,6 +27,7 @@ When detailed API schemas, documentation generators, or specific review workflow
 | **`/data-storytelling`** | `.agents/skills/data-storytelling/SKILL.md` | Clear technical narratives, tables, and visual explanations |
 | **`/obsidian-markdown`** | `.agents/skills/obsidian-markdown/SKILL.md` | Obsidian-flavored markdown, wikilinks, callouts, frontmatter |
 | **`/code-refactoring-refactor-clean`** | `.agents/skills/code-refactoring-refactor-clean/SKILL.md` | Clean code standards, readability enhancements |
+| **`/humanizer`** | `.agents/skills/humanizer/SKILL.md` | Strip AI-sounding patterns from prose docs, READMEs, and comments |
 
 ---
 
@@ -83,6 +84,7 @@ When `/call-doc` is invoked:
    - Generate OpenAPI/GraphQL specifications using `/api-documenter`.
    - Create automated technical docs, architecture diagrams, and user guides using `/code-documentation-doc-generate`.
    - Validate doc consistency against requirements and architecture.
+   - Run `/humanizer` over generated prose (READMEs, guides, doc comments) to remove AI-sounding phrasing without changing meaning.
 4. **Quality & Integrity Verification**:
    - Ensure 100% functional equivalence and zero code regression.
    - Run syntax validators, type checkers, and test suites to verify docstrings and code integrity.

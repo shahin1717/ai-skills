@@ -54,7 +54,7 @@ Avoid invoking multiple individual skills one by one! Use **Composite Calling Sk
 | **`/call-data`** | `call-data` | 13 skills | Big Data, Data Pipelines, SQL & DB Tuning |
 | **`/call-debug`** | `call-debug` | 7 skills | Deep Bug Diagnosis, Sentry & Performance |
 | **`/call-research`** | `call-research` | 14 skills | Deep Research, Web Scraping & Synthesis |
-| **`/call-doc`** | `call-doc` | 12 skills | Code Annotation, Header Docstrings & API Docs |
+| **`/call-doc`** | `call-doc` | 13 skills | Code Annotation, Header Docstrings & API Docs |
 
 *(See [call-doc.md](file://call-doc.md) for full reference).*
 
@@ -320,6 +320,7 @@ This repository provides **200+ specialized skills** across key engineering doma
 ### 🛠️ Specialized Engineering & Compliance
 * **`airflow-dag-patterns`**: Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment.
 * **`code-documentation-doc-generate`**: You are a documentation expert specializing in creating comprehensive, maintainable documentation from code.
+* **`humanizer`**: Rewrite AI-sounding text so it reads like the writer without changing what it says (removes AI tells, filler, and inflated claims).
 * **`content-marketer`**: Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimiz...
 * **`legal-advisor`**: Draft privacy policies, terms of service, disclaimers, and legal notices.
 * **`gdpr-data-handling`**: Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design.
