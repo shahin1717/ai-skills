@@ -11,7 +11,7 @@ This composite skill executes end-to-end research pipelines by pairing high-spee
 
 ## 📦 Bundled Skills & Deep References
 
-When deep schemas, batch configs, or specific sub-workflows are required, read the corresponding skill using `view_file`:
+When deep schemas, batch configs, or specific sub-workflows are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |

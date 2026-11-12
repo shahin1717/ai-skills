@@ -11,7 +11,7 @@ This composite skill executes systematic root-cause diagnosis, error stack trace
 
 ## 📦 Bundled Skills & Deep References
 
-When detailed triage methodologies, observability recipes, or specific testing frameworks are required, read the corresponding skill using `view_file`:
+When detailed triage methodologies, observability recipes, or specific testing frameworks are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |

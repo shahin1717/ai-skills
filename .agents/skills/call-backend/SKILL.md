@@ -11,7 +11,7 @@ This composite skill governs production backend development across FastAPI, Node
 
 ## 📦 Bundled Skills & Deep References
 
-When detailed implementation schemas, framework configurations, or specific sub-workflows are required, read the corresponding skill using `view_file`:
+When detailed implementation schemas, framework configurations, or specific sub-workflows are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |
@@ -31,6 +31,12 @@ When detailed implementation schemas, framework configurations, or specific sub-
 | **`/database-migration`** | `.agents/skills/database-migration/SKILL.md` | Zero-downtime expand/contract migrations (Alembic, Prisma) |
 | **`/code-refactoring-refactor-clean`** | `.agents/skills/code-refactoring-refactor-clean/SKILL.md` | Clean code, SOLID design, technical debt remediation |
 | **`/codebase-design`** | `.agents/skills/codebase-design/SKILL.md` | Deep modules, loose coupling, interface clarity |
+| **`/architect-review`** | `.agents/skills/architect-review/SKILL.md` | Master software architect specializing in modern architecture patterns, clean… |
+| **`/architecture-patterns`** | `.agents/skills/architecture-patterns/SKILL.md` | Implement proven backend architecture patterns including Clean Architecture, Hexagonal… |
+| **`/code-review`** | `.agents/skills/code-review/SKILL.md` | Review the changes since a fixed point (commit, branch, tag, or merge-base) along two… |
+| **`/codebase-cleanup-refactor-clean`** | `.agents/skills/codebase-cleanup-refactor-clean/SKILL.md` | You are a code refactoring expert specializing in clean code principles, SOLID design… |
+| **`/improve-codebase-architecture`** | `.agents/skills/improve-codebase-architecture/SKILL.md` | Scan a codebase for deepening opportunities, present them as a visual HTML report, then… |
+| **`/code-documentation-doc-generate`** | `.agents/skills/code-documentation-doc-generate/SKILL.md` | You are a documentation expert specializing in creating comprehensive, maintainable… |
 
 ---
 

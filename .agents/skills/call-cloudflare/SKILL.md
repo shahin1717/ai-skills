@@ -11,7 +11,7 @@ This composite skill commands the full Cloudflare edge ecosystem: Workers, Durab
 
 ## 📦 Bundled Skills & Deep References
 
-When detailed implementation schemas, Wrangler bindings, or specialized APIs are required, read the corresponding skill using `view_file`:
+When detailed implementation schemas, Wrangler bindings, or specialized APIs are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |

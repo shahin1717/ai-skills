@@ -11,7 +11,7 @@ This composite skill drives comprehensive codebase documentation, strict module 
 
 ## 📦 Bundled Skills & Deep References
 
-When detailed API schemas, documentation generators, or specific review workflows are required, read the corresponding skill using `view_file`:
+When detailed API schemas, documentation generators, or specific review workflows are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |

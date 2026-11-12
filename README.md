@@ -44,7 +44,7 @@ Avoid invoking multiple individual skills one by one! Use **Composite Calling Sk
 
 | Shortcut Command | Composite Skill Name | Total Bundled Skills | Primary Domain |
 | :--- | :--- | :---: | :--- |
-| **`/call-feature`** | `call-feature` | 15+ sub-skills | Master Multi-Agent Feature Delivery Pipeline |
+| **`/call-feature`** | `call-feature` | 8 bundles + 5 direct skills | Master Multi-Agent Feature Delivery Pipeline |
 | **`/call-build`** | `call-build` | 15 skills | Engineering Methodology, TDD, Roles & Restraint |
 | **`/call-ai-ml`** | `call-ai-ml` | 22 skills | Full-Stack AI/ML, RAG, Vectors, LLM & Pipelines |
 | **`/call-backend`** | `call-backend` | 22 skills | Backend APIs, FastAPI, Node.js, DB & Performance |
@@ -53,7 +53,7 @@ Avoid invoking multiple individual skills one by one! Use **Composite Calling Sk
 | **`/call-cloudflare`** | `call-cloudflare` | 11 skills | Cloudflare Edge, Workers, DO & Infrastructure |
 | **`/call-data`** | `call-data` | 13 skills | Big Data, Data Pipelines, SQL & DB Tuning |
 | **`/call-debug`** | `call-debug` | 7 skills | Deep Bug Diagnosis, Sentry & Performance |
-| **`/call-research`** | `call-research` | 14 skills | Deep Research, Web Scraping & Synthesis |
+| **`/call-research`** | `call-research` | 15 skills | Deep Research, Web Scraping & Synthesis |
 | **`/call-doc`** | `call-doc` | 13 skills | Code Annotation, Header Docstrings & API Docs |
 
 *(See [call-doc.md](file://call-doc.md) for full reference).*

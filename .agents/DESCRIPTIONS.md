@@ -118,7 +118,7 @@ Skills are matched automatically by name/description when you ask the agent to d
 | `call-cloudflare` | Composite bundler skill: activates 11 Cloudflare edge, Workers, Durable Objects, Zero Trust, and Wrangler CLI skills. |
 | `call-data` | Composite bundler skill: activates 13 big data pipeline, SQL query tuning, PostgreSQL, dbt, and database migration skills. |
 | `call-debug` | Composite bundler skill: activates 7 deep bug diagnosis, Sentry error fixing, Web Vitals performance, and mock testing skills. |
-| `call-research` | Composite bundler skill: activates 14 deep research execution, web page markdown extraction, graph parsing, trends, and synthesis skills. |
+| `call-research` | Composite bundler skill: activates 15 deep research execution, web page markdown extraction, graph parsing, trends, and synthesis skills. |
 | `call-doc` | Composite bundler skill: activates 13 code annotation, header docstring, OpenAPI, architecture review, and documentation skills. |
 
 ---

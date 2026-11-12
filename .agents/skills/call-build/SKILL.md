@@ -11,7 +11,7 @@ This composite skill drives world-class engineering execution, disciplined Test-
 
 ## 📦 Bundled Skills & Deep References
 
-When executing build workflows, consulting team roles, or enforcing engineering guardrails, read the corresponding skill using `view_file`:
+When executing build workflows, consulting team roles, or enforcing engineering guardrails, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |
@@ -26,6 +26,10 @@ When executing build workflows, consulting team roles, or enforcing engineering 
 | **`/nodejs-backend-patterns`** | `.agents/skills/nodejs-backend-patterns/SKILL.md` | Express/Fastify production backends & middleware |
 | **`/python-pro`** | `.agents/skills/python-pro/SKILL.md` | Modern Python 3.12+ async patterns & performance |
 | **`/code-refactoring-refactor-clean`** | `.agents/skills/code-refactoring-refactor-clean/SKILL.md` | Clean code, SOLID principles, dead code elimination |
+| **`/fastapi-templates`** | `.agents/skills/fastapi-templates/SKILL.md` | Create production-ready FastAPI projects with async patterns, dependency injection, and… |
+| **`/async-python-patterns`** | `.agents/skills/async-python-patterns/SKILL.md` | Master Python asyncio, concurrent programming, and async/await patterns for… |
+| **`/python-testing-patterns`** | `.agents/skills/python-testing-patterns/SKILL.md` | Implement comprehensive testing strategies with pytest, fixtures, mocking, and… |
+| **`/verification-before-completion`** | `.agents/skills/verification-before-completion/SKILL.md` | Use when about to claim work is complete, fixed, or passing, before committing or… |
 
 ---
 

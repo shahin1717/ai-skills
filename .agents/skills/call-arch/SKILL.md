@@ -11,7 +11,7 @@ This composite skill drives clean system architecture, Domain-Driven Design (DDD
 
 ## 📦 Bundled Skills & Deep References
 
-When detailed architectural specs, deep design principles, or specific review workflows are required, read the corresponding skill using `view_file`:
+When detailed architectural specs, deep design principles, or specific review workflows are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |
@@ -27,6 +27,8 @@ When detailed architectural specs, deep design principles, or specific review wo
 | **`/codebase-cleanup-refactor-clean`**| `.agents/skills/codebase-cleanup-refactor-clean/SKILL.md`| Structural refactoring, DRY consolidation, complexity reduction |
 | **`/code-review`** | `.agents/skills/code-review/SKILL.md` | Standards vs Specification dual-axis review |
 | **`/code-documentation-doc-generate`**| `.agents/skills/code-documentation-doc-generate/SKILL.md`| System overview docs, architecture flowcharts, component diagrams |
+| **`/langchain-architecture`** | `.agents/skills/langchain-architecture/SKILL.md` | Design LLM applications using the LangChain framework with agents, memory, and tool… |
+| **`/fastapi-templates`** | `.agents/skills/fastapi-templates/SKILL.md` | Create production-ready FastAPI projects with async patterns, dependency injection, and… |
 
 ---
 

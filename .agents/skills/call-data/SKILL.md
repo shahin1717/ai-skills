@@ -11,7 +11,7 @@ This composite skill drives enterprise data pipelines, modern data stack transfo
 
 ## 📦 Bundled Skills & Deep References
 
-When detailed implementation schemas, dbt transformation rules, or specific database configurations are required, read the corresponding skill using `view_file`:
+When detailed implementation schemas, dbt transformation rules, or specific database configurations are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |
@@ -26,6 +26,8 @@ When detailed implementation schemas, dbt transformation rules, or specific data
 | **`/sql-pro`** | `.agents/skills/sql-pro/SKILL.md` | Advanced SQL, window functions, CTEs, OLAP optimizations |
 | **`/dbt-transformation-patterns`** | `.agents/skills/dbt-transformation-patterns/SKILL.md` | Staging/Intermediate/Mart models, incremental strategies |
 | **`/spark-optimization`** | `.agents/skills/spark-optimization/SKILL.md` | Spark partitioning, broadcast hash joins, memory tuning |
+| **`/data-engineering-data-driven-feature`** | `.agents/skills/data-engineering-data-driven-feature/SKILL.md` | Build features guided by data insights, A/B testing, and continuous measurement using… |
+| **`/database-admin`** | `.agents/skills/database-admin/SKILL.md` | Expert database administrator specializing in modern cloud databases, automation, and… |
 
 ---
 

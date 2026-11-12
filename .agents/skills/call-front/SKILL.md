@@ -11,7 +11,7 @@ This composite skill drives world-class frontend engineering, Next.js 15/React 1
 
 ## 📦 Bundled Skills & Deep References
 
-When specialized design systems, motion physics formulas, or specific UI frameworks are required, read the corresponding skill using `view_file`:
+When specialized design systems, motion physics formulas, or specific UI frameworks are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |
@@ -33,6 +33,15 @@ When specialized design systems, motion physics formulas, or specific UI framewo
 | **`/animate`** | `.agents/skills/animate/SKILL.md` | Motion implementation, exit transitions, spring physics |
 | **`/animation-vocabulary`** | `.agents/skills/animation-vocabulary/SKILL.md` | Motion lexicon (pop-in, rubber-banding, layout morph) |
 | **`/web-perf`** | `.agents/skills/web-perf/SKILL.md` | Core Web Vitals (LCP, INP, CLS), render optimization |
+| **`/design-taste-frontend-v1`** | `.agents/skills/design-taste-frontend-v1/SKILL.md` | The original v1 taste-skill, preserved for projects depending on its exact behavior. The… |
+| **`/imagegen-frontend-web`** | `.agents/skills/imagegen-frontend-web/SKILL.md` | Elite frontend image-direction skill for generating premium, conversion-aware website… |
+| **`/imagegen-frontend-mobile`** | `.agents/skills/imagegen-frontend-mobile/SKILL.md` | Elite mobile app image-generation skill for creating premium, app-native screen concepts… |
+| **`/find-animation-opportunities`** | `.agents/skills/find-animation-opportunities/SKILL.md` | Search a codebase or UI for places that don't animate but should, and reject everything… |
+| **`/improve-animations`** | `.agents/skills/improve-animations/SKILL.md` | Survey a codebase's animation and motion code as a senior motion advisor, then produce a… |
+| **`/review-animations`** | `.agents/skills/review-animations/SKILL.md` | Reviews animation and motion code against a high craft bar derived from Emil Kowalski's… |
+| **`/pick-ui-library`** | `.agents/skills/pick-ui-library/SKILL.md` | Pick the right library for a given frontend task from a curated, opinionated list —… |
+| **`/prototype`** | `.agents/skills/prototype/SKILL.md` | Build multiple genuinely different versions of a UI piece you describe, rendered behind a… |
+| **`/redesign-existing-projects`** | `.agents/skills/redesign-existing-projects/SKILL.md` | Upgrades existing websites and apps to premium quality. Audits current design, identifies… |
 
 ---
 

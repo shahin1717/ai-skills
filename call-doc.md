@@ -8,7 +8,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 
 | Shortcut Command | Composite Skill Name | Total Bundled Skills | Primary Domain |
 | :--- | :--- | :---: | :--- |
-| **`/call-feature`** | `call-feature` | 15+ sub-skills | Master Multi-Agent Feature Delivery Pipeline |
+| **`/call-feature`** | `call-feature` | 8 bundles + 5 direct skills | Master Multi-Agent Feature Delivery Pipeline |
 | **`/call-build`** | `call-build` | 15 skills | Engineering Methodology, TDD, Roles & Restraint |
 | **`/call-ai-ml`** | `call-ai-ml` | 22 skills | Full-Stack AI/ML, RAG, Vectors, LLM & Pipelines |
 | **`/call-backend`** | `call-backend` | 22 skills | Backend APIs, FastAPI, Node.js, DB & Performance |
@@ -17,7 +17,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 | **`/call-cloudflare`** | `call-cloudflare` | 11 skills | Cloudflare Edge, Workers, DO & Infrastructure |
 | **`/call-data`** | `call-data` | 13 skills | Big Data, Data Pipelines, SQL & DB Tuning |
 | **`/call-debug`** | `call-debug` | 7 skills | Deep Bug Diagnosis, Sentry & Performance |
-| **`/call-research`** | `call-research` | 14 skills | Deep Research, Web Scraping & Synthesis |
+| **`/call-research`** | `call-research` | 15 skills | Deep Research, Web Scraping & Synthesis |
 | **`/call-doc`** | `call-doc` | 13 skills | Code Annotation, Header Docstrings & API Docs |
 
 ---
@@ -32,7 +32,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 **Included Skills / Subagent Workflow**:
 * **Research**: `/call-research`, `/last30days`, `/graphify`, `/agent-browser`, `/defuddle`
 * **Architecture**: `/call-arch`, `/architect-review`, `/architecture-patterns`, `/domain-modeling`, `/database-architect`
-* **Build & Backend Engineering**: `/call-build`, `/call-backend`, `/superpowers`, `/ponytail`, `/fastapi-pro`, `/nodejs-backend-patterns`, `/ai-engineer`, `/sql-optimization-patterns`
+* **Build & Backend Engineering**: `/call-build`, `/call-backend`, `/using-superpowers`, `/ponytail`, `/ponytail-review`, `/ponytail-audit`, `/fastapi-pro`, `/nodejs-backend-patterns`, `/ai-engineer`, `/sql-optimization-patterns`
 * **Frontend UI**: `/call-front`, `/ui-ux-pro-max`, `/impeccable`, `/design-taste-frontend`, `/hyperframes`, `/animate`
 * **Testing & Docs**: `/call-debug`, `/call-doc`, `/diagnosing-bugs`, `/code-review`, `/code-documentation-doc-generate`, `/i-have-adhd`
 
@@ -152,7 +152,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 
 **Activation Command**: `/call-front`
 
-**Included Skills (25 total)**:
+**Included Skills (27 total)**:
 * `/frontend-developer`
 * `/nextjs-app-router-patterns`
 * `/impeccable`
@@ -178,6 +178,8 @@ This document serves as the master quick-reference for all **Composite Calling S
 * `/prototype`
 * `/redesign-existing-projects`
 * `/web-perf`
+* `/ui-ux-pro-max`
+* `/hyperframes`
 
 ---
 
@@ -244,7 +246,7 @@ This document serves as the master quick-reference for all **Composite Calling S
 
 **Activation Command**: `/call-research`
 
-**Included Skills (8 total)**:
+**Included Skills (15 total)**:
 * `/research`
 * `/research-add-fields`
 * `/research-add-items`
@@ -253,6 +255,13 @@ This document serves as the master quick-reference for all **Composite Calling S
 * `/defuddle`
 * `/grill-with-docs`
 * `/data-storytelling`
+* `/agent-browser`
+* `/claude-hub`
+* `/find-skills`
+* `/graphify`
+* `/grill-me`
+* `/last30days`
+* `/skill-creator`
 
 ---
 

@@ -11,7 +11,7 @@ This composite skill unifies machine learning engineering, LLM application archi
 
 ## 📦 Bundled Skills & Deep References
 
-When detailed implementation schemas, framework configurations, or specific sub-workflows are required, read the corresponding skill using `view_file`:
+When detailed implementation schemas, framework configurations, or specific sub-workflows are required, read the corresponding skill by reading its `SKILL.md` file:
 
 | Skill | Path | Focus & On-Demand Capabilities |
 | :--- | :--- | :--- |
@@ -33,6 +33,10 @@ When detailed implementation schemas, framework configurations, or specific sub-
 | **`/api-documenter`** | `.agents/skills/api-documenter/SKILL.md` | OpenAPI 3.1 specs, interactive documentation |
 | **`/api-testing-observability-api-mock`** | `.agents/skills/api-testing-observability-api-mock/SKILL.md` | Mocking API services and realistic sandbox testing |
 | **`/code-review`** | `.agents/skills/code-review/SKILL.md` | Dual-axis code review (Standards + Specification) |
+| **`/architecture-patterns`** | `.agents/skills/architecture-patterns/SKILL.md` | Implement proven backend architecture patterns including Clean Architecture, Hexagonal… |
+| **`/codebase-design`** | `.agents/skills/codebase-design/SKILL.md` | Shared vocabulary for designing deep modules. Use when the user wants to design or… |
+| **`/improve-codebase-architecture`** | `.agents/skills/improve-codebase-architecture/SKILL.md` | Scan a codebase for deepening opportunities, present them as a visual HTML report, then… |
+| **`/code-documentation-doc-generate`** | `.agents/skills/code-documentation-doc-generate/SKILL.md` | You are a documentation expert specializing in creating comprehensive, maintainable… |
 
 ---
 

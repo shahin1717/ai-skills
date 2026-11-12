@@ -23,6 +23,33 @@ TARGET_AGENTS_DIRS = [
     "/mnt/c/Vaults/ml-project/.agents",
 ]
 
+CLAUDE_AGENTS_DIR = os.path.expanduser("~/.claude/agents")
+GLOBAL_AGENTS_DIR = "/home/shahin/.agents/agents"
+# OpenCode-format agent, not loadable by Claude Code
+SKIP_CLAUDE_AGENTS = {"web-search-opencode"}
+
+
+def link_claude_agents():
+    """Claude Code only loads flat ~/.claude/agents/<name>.md files, so symlink each
+    <agents>/<name>/agent.md to it. web-search-modules is read by path, not linked."""
+    os.makedirs(CLAUDE_AGENTS_DIR, exist_ok=True)
+    wanted = {}
+    for name in sorted(os.listdir(GLOBAL_AGENTS_DIR)):
+        src = os.path.join(GLOBAL_AGENTS_DIR, name, "agent.md")
+        if name not in SKIP_CLAUDE_AGENTS and os.path.isfile(src):
+            wanted[name + ".md"] = src
+    for fname, src in wanted.items():
+        dst = os.path.join(CLAUDE_AGENTS_DIR, fname)
+        if os.path.islink(dst) or os.path.exists(dst):
+            os.remove(dst)
+        os.symlink(src, dst)
+    for fname in os.listdir(CLAUDE_AGENTS_DIR):  # drop stale links
+        dst = os.path.join(CLAUDE_AGENTS_DIR, fname)
+        if os.path.islink(dst) and fname not in wanted:
+            os.remove(dst)
+    print(f"Linked {len(wanted)} agents into {CLAUDE_AGENTS_DIR}: {', '.join(sorted(wanted))}")
+
+
 def main():
     if not os.path.exists(SOURCE_SKILLS):
         print(f"Error: Source skills directory does not exist: {SOURCE_SKILLS}")
@@ -77,6 +104,7 @@ def main():
             all_passed = False
 
     print("-" * 60)
+    link_claude_agents()
     if all_passed:
         print(f"ALL SYNC TARGETS UPDATED SUCCESSFULLY WITH {source_skills_count} SKILLS!")
     else:
